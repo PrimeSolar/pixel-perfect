@@ -135,3 +135,25 @@ footer {
   text-align: center;
   width: 50vw;
 }
+
+/* noscript */
+#enable-javascript {
+  margin: 0 10vw;
+  font-size: 4.5vh;
+  text-align: auto;
+}
+
+noscript p {
+  width: auto;
+  text-align: left;
+}
+
+noscript summary {
+  margin: 2vh;
+  cursor: pointer;
+}
+
+noscript li {
+  margin: 1vh;
+  text-align: left;
+}
