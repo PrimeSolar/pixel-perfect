@@ -1,11 +1,14 @@
-@media screen and (max-width: 1920px) {
+@media (max-width: 1920px) {
+  #text-container {
+    height: 100vh;
+  }
+
   #text {
     height: auto;
     width: 50vw;
-    padding-bottom: 20vh;
   }
 
-  #caption>p {
+  #caption > p {
     font-size: 19px;
     margin: 0;
   }
@@ -15,45 +18,41 @@
   }
 }
 
-@media screen and (max-width: 1515px) {
+@media (max-width: 1515px) {
   #flex-container {
     flex-direction: column;
     height: fit-content;
   }
 
   #text-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
     height: 100vh;
     width: 100%;
-    gap: 0;
   }
 
   h1 {
-    margin-top: 5vh;
-    margin-bottom: 0;
+    width: 100%;
+    margin: 5vh 0;
     border-top: solid 9px #232629;
     border-bottom: solid 9px #232629;
-    width: 100%;
   }
 
   #text {
-    height: auto;
     width: 95vw;
-    padding-bottom: 10vh;
-    margin: 0;
+    height: auto;
   }
 
   #grid-container {
     margin: 5vh calc((50vw - 748px) / 2);
     --grid-width: 80vh;
-    grid-template-rows: calc(var(--grid-width) * 414/748) calc(var(--grid-width) * 130/748) calc(var(--grid-width) * 155/748) calc(var(--grid-width) * 22/748);
-    grid-template-columns: calc(var(--grid-width) * 320/748) calc(var(--grid-width) * 198/748) calc(var(--grid-width) * 153/748) calc(var(--grid-width) * 50/748);
+    grid-template-rows:
+      calc(var(--grid-width) * 414 / 748) calc(var(--grid-width) * 130 / 748)
+      calc(var(--grid-width) * 155 / 748) calc(var(--grid-width) * 22 / 748);
+    grid-template-columns:
+      calc(var(--grid-width) * 320 / 748) calc(var(--grid-width) * 198 / 748)
+      calc(var(--grid-width) * 153 / 748) calc(var(--grid-width) * 50 / 748);
     width: var(--grid-width);
     height: var(--grid-width);
-    gap: calc(var(--grid-width) * 9/748);
+    gap: calc(var(--grid-width) * 9 / 748);
   }
 
   #caption {
@@ -91,9 +90,17 @@
   }
 }
 
-@media screen and (max-width: 500px) {
+@media (max-width: 500px) {
+  #text-container {
+    justify-content: center;
+  }
+  h1 {
+    font-size: 3.5rem;
+    margin: 0.75rem;
+  }
+
   #text {
-    font-size: 26px;
+    font-size: 1.7rem;
     padding-bottom: 3.7vh;
   }
 
@@ -104,14 +111,18 @@
   #grid-container {
     margin: 5vh auto;
     --grid-width: 80vw;
-    grid-template-rows: calc(var(--grid-width) * 414/748) calc(var(--grid-width) * 130/748) calc(var(--grid-width) * 155/748) calc(var(--grid-width) * 22/748);
-    grid-template-columns: calc(var(--grid-width) * 320/748) calc(var(--grid-width) * 198/748) calc(var(--grid-width) * 153/748) calc(var(--grid-width) * 50/748);
+    grid-template-rows:
+      calc(var(--grid-width) * 414 / 748) calc(var(--grid-width) * 130 / 748)
+      calc(var(--grid-width) * 155 / 748) calc(var(--grid-width) * 22 / 748);
+    grid-template-columns:
+      calc(var(--grid-width) * 320 / 748) calc(var(--grid-width) * 198 / 748)
+      calc(var(--grid-width) * 153 / 748) calc(var(--grid-width) * 50 / 748);
     width: var(--grid-width);
     height: var(--grid-width);
-    gap: calc(var(--grid-width) * 9/748);
+    gap: calc(var(--grid-width) * 9 / 748);
   }
 
-  #caption>p {
+  #caption > p {
     font-size: 16px;
   }
 
