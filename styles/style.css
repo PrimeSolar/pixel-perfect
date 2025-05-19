@@ -1,10 +1,14 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   text-align: center;
   font-size: 32px;
-  font-family: sans-serif;
+  font-family: "Arial", sans-serif;
 }
 
 #flex-container {
@@ -29,6 +33,15 @@ body {
   width: 50vw;
   color: #232629;
   background-color: #f0f1ec;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto", sans-serif;
 }
 
 h1 {
@@ -72,6 +85,14 @@ a {
   background-color: #000;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   animation: brighten 1s;
+}
+
+#grid-container div {
+  transition: transform 0.27s;
+}
+
+#grid-container div:hover {
+  transform: scale(1.05);
 }
 
 #grid-item-1 {
