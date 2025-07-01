@@ -46,10 +46,10 @@ linkMediaQueries.type = "text/css";
 linkMediaQueries.href = "styles/media-queries-min.css";
 document.querySelector("head").appendChild(linkMediaQueries);
 
-// Insert <link rel="icon" href="assets/favicon.jpg">
+// Insert <link rel="icon" href="assets/logo.jpg">
 const linkImage = document.createElement("link");
 linkImage.rel = "icon";
-linkImage.href = "assets/favicon.jpg";
+linkImage.href = "assets/logo.jpg";
 document.querySelector("head").appendChild(linkImage);
 
 // Set `type="text/javascript"` for all <script> elements for better compatibility
