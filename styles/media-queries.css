@@ -16,6 +16,10 @@
   #contact {
     font-size: 2.7vh;
   }
+
+  #contact.scroll-animation {
+    opacity: 1;
+  }
 }
 
 @media (max-width: 1515px) {
@@ -32,8 +36,8 @@
   h1 {
     width: 100%;
     margin: 5vh 0;
-    border-top: solid 9px #232629;
-    border-bottom: solid 9px #232629;
+    border-top: solid 9px #212628;
+    border-bottom: solid 9px #212628;
   }
 
   #text {
@@ -58,8 +62,8 @@
   #caption {
     position: relative;
     bottom: 0;
-    padding: 1vh 0 5vh;
     left: 0;
+    padding: 1vh 0 5vh;
     width: 100%;
     box-sizing: border-box;
     text-align: center;
@@ -73,16 +77,16 @@
   }
 
   #contact {
-    display: flex;
-    flex-direction: column;
     position: relative;
     bottom: 0;
-    padding: 1vh 0;
     margin: 0;
     width: 100%;
+    padding: 1vh 0;
     box-sizing: inherit;
     align-items: center;
     font-size: 3.7vh;
+    display: flex;
+    flex-direction: column;
   }
 
   footer {
