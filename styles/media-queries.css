@@ -1,11 +1,11 @@
 @media (max-width: 1920px) {
   #text-container {
-    height: 100vh;
+    height: 100vh; /* Set the height of the element */
   }
 
   #text {
-    height: auto;
-    width: 50vw;
+    height: auto; /* Set the height of the element */
+    width: 50vw; /* Set the width of the element */
   }
 
   #caption > p {
@@ -25,24 +25,24 @@
 @media (max-width: 1515px) {
   #flex-container {
     flex-direction: column;
-    height: fit-content;
+    height: fit-content; /* Set the height of the element */
   }
 
   #text-container {
-    height: 100vh;
-    width: 100%;
+    height: 100vh; /* Set the height of the element */
+    width: 100%; /* Set the width of the element */
   }
 
   h1 {
-    width: 100%;
+    width: 100%; /* Set the width of the element */
     margin: 5vh 0;
     border-top: solid 9px #212628;
     border-bottom: solid 9px #212628;
   }
 
   #text {
-    width: 95vw;
-    height: auto;
+    width: 95vw; /* Set the width of the element */
+    height: auto; /* Set the height of the element */
   }
 
   #grid-container {
@@ -54,8 +54,8 @@
     grid-template-columns:
       calc(var(--grid-width) * 320 / 748) calc(var(--grid-width) * 198 / 748)
       calc(var(--grid-width) * 153 / 748) calc(var(--grid-width) * 50 / 748);
-    width: var(--grid-width);
-    height: var(--grid-width);
+    width: var(--grid-width); /* Set the width of the element */
+    height: var(--grid-width); /* Set the height of the element */
     gap: calc(var(--grid-width) * 9 / 748);
   }
 
@@ -64,7 +64,7 @@
     bottom: 0;
     left: 0;
     padding: 1vh 0 5vh;
-    width: 100%;
+    width: 100%; /* Set the width of the element */
     box-sizing: border-box;
     text-align: center;
     align-items: center;
@@ -73,14 +73,14 @@
   p {
     padding: 0;
     margin: 0 0 1vh;
-    width: 100%;
+    width: 100%; /* Set the width of the element */
   }
 
   #contact {
     position: relative;
     bottom: 0;
     margin: 0;
-    width: 100%;
+    width: 100%; /* Set the width of the element */
     padding: 1vh 0;
     box-sizing: inherit;
     align-items: center;
@@ -90,7 +90,7 @@
   }
 
   footer {
-    width: 100%;
+    width: 100%; /* Set the width of the element */
   }
 }
 
@@ -125,8 +125,8 @@
     grid-template-columns:
       calc(var(--grid-width) * 320 / 748) calc(var(--grid-width) * 198 / 748)
       calc(var(--grid-width) * 153 / 748) calc(var(--grid-width) * 50 / 748);
-    width: var(--grid-width);
-    height: var(--grid-width);
+    width: var(--grid-width); /* Set the width of the element */
+    height: var(--grid-width); /* Set the height of the element */
     gap: calc(var(--grid-width) * 9 / 748);
   }
 
