@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  padding: 0;
+  padding: 0; /* Set the thickness for the padding area of the element */
   margin: 0;
   box-sizing: border-box;
   text-align: center;
@@ -65,7 +65,7 @@ h1 {
 #text {
   height: 50vh;
   width: 50vw;
-  padding: 0;
+  padding: 0; /* Set the thickness for the padding area of the element */
   margin: 0 10vw;
   font-size: 2rem;
 }
@@ -141,7 +141,7 @@ a {
 #caption {
   position: absolute;
   bottom: 0;
-  padding: 1vh 0;
+  padding: 1vh 0; /* Set the thickness for the padding area of the element */
   left: 50vw;
   width: 50vw;
   box-sizing: border-box;
@@ -150,7 +150,7 @@ a {
 }
 
 p {
-  padding: 0;
+  padding: 0; /* Set the thickness for the padding area of the element */
   margin: 0 0 1vh;
   width: 50vw;
 }
@@ -158,7 +158,7 @@ p {
 #contact {
   position: absolute;
   bottom: 0;
-  padding: 1vh 0;
+  padding: 1vh 0; /* Set the thickness for the padding area of the element */
   margin: 0;
   width: 50vw;
   box-sizing: border-box;
