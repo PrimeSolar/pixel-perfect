@@ -19,7 +19,7 @@
           It's measured up with a ruler so that I can create a realistic pixel perfect version of this painting using CSS Grid and CSS Flexbox. You can see the result on this page.
         </div>
       </div>
-      <div id="grid-container">
+      <div id="grid-container" class="scroll-animation">
         <div id="grid-item-1" class="red"></div>
         <div id="grid-item-2" class="white"></div>
         <div id="grid-item-3" class="white"></div>
@@ -32,19 +32,21 @@
       </div>
     </div>
 
-    <div id="caption">
+    <div id="caption" class="scroll-animation">
       <p>
         Composition No. III with Red, Blue, Yellow and Black<br />
         Piet Mondrian
       </p>
     </div>
 
-    <div class="flex-container" id="contact"><section class="cta">
-      <div id="footerContainer"></div>
-    </section>
+    <div id="contact" class="flex-container scroll-animation">
+      <section class="cta">
+        <div id="footerContainer"></div>
+      </section>
     </div>
 
-    <script src="scripts/elements-min.js"></script>
+    <script src="scripts/components-min.js"></script>
     <script src="scripts/meta-tags-min.js"></script>
+    <script src="scripts/scroll-animation-min.js"></script>
   </body>
 </html>
