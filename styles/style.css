@@ -31,7 +31,7 @@ body {
   align-items: center;
   height: 100vh;
   width: 50vw;
-  color: #232629;
+  color: #232629; /* Set the color for the text of the element */
   background-color: #f0f1ec;
 }
 
@@ -49,7 +49,7 @@ h1 {
   border-top: solid 9px #232629;
   border-bottom: solid 9px #232629;
   width: 50vw;
-  color: #fff;
+  color: #ffffff; /* Set the color for the text of the element */
   background-color: #f9d01e;
 }
 
@@ -71,7 +71,7 @@ h1 {
 }
 
 a {
-  color: inherit;
+  color: inherit; /* Set the color for the text of the element */
 }
 
 #grid-container {
@@ -82,7 +82,7 @@ a {
   height: 748px;
   margin: calc((50vw - 748px) / 2);
   gap: 9px;
-  background-color: #000;
+  background-color: #000000;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   animation: brighten 1s;
 }
@@ -111,7 +111,7 @@ a {
 }
 
 #grid-item-5 {
-  border-bottom: solid 10px #000;
+  border-bottom: solid 10px #000000;
 }
 
 #grid-item-6 {
@@ -146,7 +146,7 @@ a {
   width: 50vw;
   box-sizing: border-box;
   text-align: center;
-  color: #232629;
+  color: #232629; /* Set the color for the text of the element */
 }
 
 p {
@@ -163,7 +163,7 @@ p {
   width: 50vw;
   box-sizing: border-box;
   text-align: center;
-  color: #f0f1ec;
+  color: #f0f1ec; /* Set the color for the text of the element */
   background-color: #004592;
   border-top: solid 9px #232629;
   font-size: 3.7vh;
