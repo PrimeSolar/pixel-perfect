@@ -18,8 +18,8 @@ html {
 }
 
 body {
-  padding: 0; /* Set the thickness for the padding area of the element */
-  margin: 0; /* Set the margin of the element */
+  padding: 0; /* Set the thickness for the padding area of the element. */
+  margin: 0; /* Set the margin of the element. */
   box-sizing: border-box;
   text-align: center;
   font-size: 32px;
@@ -46,7 +46,7 @@ body {
   align-items: center;
   height: 100vh;
   width: 50vw;
-  color: #232629; /* Set the color for the text of the element */
+  color: #232629; /* Set the color for the text of the element. */
   background-color: #f0f1ec;
 }
 
@@ -60,11 +60,11 @@ h6 {
 }
 
 h1 {
-  margin: 5vh 0 10vh; /* Set the margin of the element */
+  margin: 5vh 0 10vh; /* Set the margin of the element. */
   border-top: solid 9px #232629;
   border-bottom: solid 9px #232629;
   width: 50vw;
-  color: #ffffff; /* Set the color for the text of the element */
+  color: #ffffff; /* Set the color for the text of the element. */
   background-color: #f9d01e;
 }
 
@@ -80,13 +80,13 @@ h1 {
 #text {
   height: 50vh;
   width: 50vw;
-  padding: 0; /* Set the thickness for the padding area of the element */
-  margin: 0 10vw; /* Set the margin of the element */
+  padding: 0; /* Set the thickness for the padding area of the element. */
+  margin: 0 10vw; /* Set the margin of the element. */
   font-size: 2rem;
 }
 
 a {
-  color: inherit; /* Set the color for the text of the element */
+  color: inherit; /* Set the color for the text of the element. */
 }
 
 #grid-container {
@@ -95,7 +95,7 @@ a {
   grid-template-columns: 320px 198px 153px 50px;
   width: 748px;
   height: 748px;
-  margin: calc((50vw - 748px) / 2); /* Set the margin of the element */
+  margin: calc((50vw - 748px) / 2); /* Set the margin of the element. */
   gap: 9px;
   background-color: #000000;
   box-shadow: 0 4px 8px 0 #00000037, 0 6px 20px 0 #00000037;
@@ -156,29 +156,29 @@ a {
 #caption {
   position: absolute;
   bottom: 0;
-  padding: 1vh 0; /* Set the thickness for the padding area of the element */
+  padding: 1vh 0; /* Set the thickness for the padding area of the element. */
   left: 50vw;
   width: 50vw;
   box-sizing: border-box;
   text-align: center;
-  color: #232629; /* Set the color for the text of the element */
+  color: #232629; /* Set the color for the text of the element. */
 }
 
 p {
-  padding: 0; /* Set the thickness for the padding area of the element */
-  margin: 0 0 1vh; /* Set the margin of the element */
+  padding: 0; /* Set the thickness for the padding area of the element. */
+  margin: 0 0 1vh; /* Set the margin of the element. */
   width: 50vw;
 }
 
 #contact {
   position: absolute;
   bottom: 0;
-  padding: 1vh 0; /* Set the thickness for the padding area of the element */
-  margin: 0; /* Set the margin of the element */
+  padding: 1vh 0; /* Set the thickness for the padding area of the element. */
+  margin: 0; /* Set the margin of the element. */
   width: 50vw;
   box-sizing: border-box;
   text-align: center;
-  color: #f0f1ec; /* Set the color for the text of the element */
+  color: #f0f1ec; /* Set the color for the text of the element. */
   background-color: #004592;
   border-top: solid 9px #232629;
   font-size: 3.7vh;
@@ -191,16 +191,16 @@ footer {
 
 .scroll-animation {
   opacity: 0;
-  transition: opacity 0.5s ease-in-out; /* Smooth transition */
+  transition: opacity 0.5s ease-in-out; /* Smooth transition. */
 }
 
 .scroll-animation.visible {
-  opacity: 1; /* Fully visible when the class is added */
+  opacity: 1; /* Fully visible when the class is added. */
 }
 
-/* noscript */
+/* noscript. */
 #enable-javascript {
-  margin: 0 10vw; /* Set the margin of the element */
+  margin: 0 10vw; /* Set the margin of the element. */
   font-size: 4.5vh;
   text-align: auto;
 }
@@ -211,11 +211,11 @@ noscript p {
 }
 
 noscript summary {
-  margin: 2vh; /* Set the margin of the element */
+  margin: 2vh; /* Set the margin of the element. */
   cursor: pointer;
 }
 
 noscript li {
-  margin: 1vh; /* Set the margin of the element */
+  margin: 1vh; /* Set the margin of the element. */
   text-align: left;
 }
