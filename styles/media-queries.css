@@ -15,21 +15,21 @@
 
 @media (max-width: 1920px) {
   #text-container {
-    height: 100vh; /* Set the height of the element */
+    height: 100vh; /* Set the height of the element. */
   }
 
   #text {
-    height: auto; /* Set the height of the element */
-    width: 50vw; /* Set the width of the element */
+    height: auto; /* Set the height of the element. */
+    width: 50vw; /* Set the width of the element. */
   }
 
   #caption > p {
-    font-size: 19px; /* Set the font size for the text of the element */
+    font-size: 19px; /* Set the font size for the text of the element. */
     margin: 0;
   }
 
   #contact {
-    font-size: 2.7vh; /* Set the font size for the text of the element */
+    font-size: 2.7vh; /* Set the font size for the text of the element. */
   }
 
   #contact.scroll-animation {
@@ -40,24 +40,24 @@
 @media (max-width: 1515px) {
   #flex-container {
     flex-direction: column;
-    height: fit-content; /* Set the height of the element */
+    height: fit-content; /* Set the height of the element. */
   }
 
   #text-container {
-    height: 100vh; /* Set the height of the element */
-    width: 100%; /* Set the width of the element */
+    height: 100vh; /* Set the height of the element. */
+    width: 100%; /* Set the width of the element. */
   }
 
   h1 {
-    width: 100%; /* Set the width of the element */
+    width: 100%; /* Set the width of the element. */
     margin: 5vh 0;
     border-top: solid 9px #212628;
     border-bottom: solid 9px #212628;
   }
 
   #text {
-    width: 95vw; /* Set the width of the element */
-    height: auto; /* Set the height of the element */
+    width: 95vw; /* Set the width of the element. */
+    height: auto; /* Set the height of the element. */
   }
 
   #grid-container {
@@ -69,8 +69,8 @@
     grid-template-columns:
       calc(var(--grid-width) * 320 / 748) calc(var(--grid-width) * 198 / 748)
       calc(var(--grid-width) * 153 / 748) calc(var(--grid-width) * 50 / 748);
-    width: var(--grid-width); /* Set the width of the element */
-    height: var(--grid-width); /* Set the height of the element */
+    width: var(--grid-width); /* Set the width of the element. */
+    height: var(--grid-width); /* Set the height of the element. */
     gap: calc(var(--grid-width) * 9 / 748);
   }
 
@@ -79,7 +79,7 @@
     bottom: 0;
     left: 0;
     padding: 1vh 0 5vh;
-    width: 100%; /* Set the width of the element */
+    width: 100%; /* Set the width of the element. */
     box-sizing: border-box;
     text-align: center;
     align-items: center;
@@ -88,42 +88,42 @@
   p {
     padding: 0;
     margin: 0 0 1vh;
-    width: 100%; /* Set the width of the element */
+    width: 100%; /* Set the width of the element. */
   }
 
   #contact {
     position: relative;
     bottom: 0;
     margin: 0;
-    width: 100%; /* Set the width of the element */
+    width: 100%; /* Set the width of the element. */
     padding: 1vh 0;
     box-sizing: inherit;
     align-items: center;
-    font-size: 3.7vh; /* Set the font size for the text of the element */
+    font-size: 3.7vh; /* Set the font size for the text of the element. */
     display: flex;
     flex-direction: column;
   }
 
   footer {
-    width: 100%; /* Set the width of the element */
+    width: 100%; /* Set the width of the element. */
   }
 }
 
 @media (max-width: 500px) {
   body {
-    font-size: 14px; /* Set the font size for the text of the element */
+    font-size: 14px; /* Set the font size for the text of the element. */
   }
 
   #text-container {
     justify-content: center;
   }
   h1 {
-    font-size: 3.5rem; /* Set the font size for the text of the element */
+    font-size: 3.5rem; /* Set the font size for the text of the element. */
     margin: 0.75rem;
   }
 
   #text {
-    font-size: 1.7rem; /* Set the font size for the text of the element */
+    font-size: 1.7rem; /* Set the font size for the text of the element. */
     padding-bottom: 3.7vh;
   }
 
@@ -140,16 +140,16 @@
     grid-template-columns:
       calc(var(--grid-width) * 320 / 748) calc(var(--grid-width) * 198 / 748)
       calc(var(--grid-width) * 153 / 748) calc(var(--grid-width) * 50 / 748);
-    width: var(--grid-width); /* Set the width of the element */
-    height: var(--grid-width); /* Set the height of the element */
+    width: var(--grid-width); /* Set the width of the element. */
+    height: var(--grid-width); /* Set the height of the element. */
     gap: calc(var(--grid-width) * 9 / 748);
   }
 
   #caption > p {
-    font-size: 16px; /* Set the font size for the text of the element */
+    font-size: 16px; /* Set the font size for the text of the element. */
   }
 
   #contact {
-    font-size: 1.7vh; /* Set the font size for the text of the element */
+    font-size: 1.7vh; /* Set the font size for the text of the element. */
   }
 }
