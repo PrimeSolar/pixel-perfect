@@ -16,7 +16,7 @@
  * For inquiries about collaboration, usage outside exploratory purposes, or permissions, please contact: hypervisor7@pm.me
  */
 
-// The Scroll to Top Button
+/** The scroll to top button. */
 const scrollToTopBtn = document.createElement("button");
 scrollToTopBtn.id = "scrollToTopBtn";
 scrollToTopBtn.innerText = "Back to Top";
@@ -34,6 +34,10 @@ scrollToTopBtn.style.visibility = "hidden";
 scrollToTopBtn.style.transition = "opacity 0.27s, visibility 0.27s";
 document.body.appendChild(scrollToTopBtn);
 
+/**
+ * The script includes detailed comments
+ * to support stakeholders with varying JS knowledge.
+ */
 window.onscroll = function () {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
     scrollToTopBtn.style.opacity = "1";
@@ -45,17 +49,17 @@ window.onscroll = function () {
 };
 
 scrollToTopBtn.onclick = function () {
-  document.body.scrollTop = 0; // For Safari
-  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE, and Opera
+  document.body.scrollTop = 0; /** For Safari. */
+  document.documentElement.scrollTop = 0; /** For Chrome, Firefox, IE, and Opera. */
 };
 
-// The Footer
-footerContainer = document.querySelector("#footerContainer");
+/** The footer. */
+FooterContainer = document.querySelector("#FooterContainer");
 const year = new Date().getFullYear();
-function footerContainerF(footerContainer) {
-  if (footerContainer != null) {
-    // Define the footer content:
-    footerContainer.innerHTML += `<footer>Copyright © <a href="https://primesolar.github.io/web-developer/">Vladislav Kazantsev</a> ${year}</footer>`;
+function footerContainerF(FooterContainer) {
+  if (FooterContainer !== null) {
+    /** Define the footer content. */
+    FooterContainer.innerHTML += `<footer>Copyright © <a href="https://primesolar.github.io/web-developer/">Vladislav Kazantsev</a> ${year}</footer>`;
     footer = document.querySelector("footer");
     const donationButton = document.createElement("button");
     donationButton.innerText = "SUPPORT ME";
@@ -75,6 +79,6 @@ function footerContainerF(footerContainer) {
     footer.appendChild(donationButton);
   }
 }
-footerContainerF(footerContainer);
+footerContainerF(FooterContainer);
 
 console.log("components.js is completed");
