@@ -54,7 +54,7 @@ scrollToTopBtn.onclick = function () {
 };
 
 /** The footer. */
-FooterContainer = document.querySelector("#FooterContainer");
+const FooterContainer = document.querySelector("#FooterContainer");
 const year = new Date().getFullYear();
 function footerContainerF(FooterContainer) {
   if (FooterContainer !== null) {
