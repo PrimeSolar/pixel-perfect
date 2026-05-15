@@ -18,6 +18,8 @@
     height: 100vh; /* Set the height of the element. */
   }
 
+  /* The style sheet includes detailed property comments
+  to support stakeholders with varying CSS knowledge. */
   #text {
     height: auto; /* Set the height of the element. */
     width: 50vw; /* Set the width of the element. */
