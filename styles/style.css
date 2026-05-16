@@ -17,6 +17,8 @@ html {
   scroll-behavior: smooth;
 }
 
+/* The style sheet includes detailed property comments
+to support stakeholders with varying CSS knowledge. */
 body {
   padding: 0; /* Set the thickness for the padding area of the element. */
   margin: 0; /* Set the margin of the element. */
